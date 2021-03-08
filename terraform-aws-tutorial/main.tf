@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "terraform-tutorial" {
-  ami           = "ami-0774445f9e6290ccd"
+  ami           = "ami-036915aa0cb1d91a1"
   instance_type = "t3.micro"
   tags = {
     Name = "terraform-tutorial"
